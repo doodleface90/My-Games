@@ -1,0 +1,107 @@
+﻿Log file open, 12/10/20 18:58:13
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.24-CL-0
+LogInit: Engine Version: 4.24.3-0+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-0+++UE4+Release-4.24
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: Radeon RX 570 Series
+LogInit: Compiled (64-bit): Sep 15 2020 18:19:18
+LogInit: Compiled with Visual C++: 19.16.27034.00
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  -Windowed -ResX=924 -ResY=520 WinX=924 WinY=0 -PREVIEW_QUALITY 0 -JOIN_PREVIEW 1116E8E74CEDE51EC777FDA87A336BF0 -PREVIEW_USERNAME Bot2 -ENV=Prod -LAUNCHER_VERSION=1.10.37.0
+LogInit: Base Directory: C:/ProgramData/Manticore Games/Core/Platform/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.12.11-00.58.13:898][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2020.12.11-00.58.13:898][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2020.12.11-00.58.13:901][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2020.12.11-00.58.13:901][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.11-00.58.13:901][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.12.11-00.58.13:901][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.11-00.58.13:901][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.12.11-00.58.13:901][  0]LogMemory: Process Physical Memory: 142.30 MB used, 142.30 MB peak
+[2020.12.11-00.58.13:901][  0]LogMemory: Process Virtual Memory: 128.39 MB used, 128.39 MB peak
+[2020.12.11-00.58.13:901][  0]LogMemory: Physical Memory: 6807.24 MB used,  1335.11 MB free, 8142.34 MB total
+[2020.12.11-00.58.13:901][  0]LogMemory: Virtual Memory: 4595.03 MB used,  134213136.00 MB free, 134217728.00 MB total
+[2020.12.11-00.58.13:915][  0]LogInit: Using OS detected language (en-US).
+[2020.12.11-00.58.13:915][  0]LogInit: Using OS detected locale (en-US).
+[2020.12.11-00.58.13:944][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.11-00.58.13:983][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.11-00.58.13:983][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.11-00.58.13:983][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.11-00.58.14:085][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
+[2020.12.11-00.58.14:085][  0]LogD3D11RHI:       4041/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.12.11-00.58.14:088][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.11-00.58.14:088][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.11-00.58.14:088][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.11-00.58.14:101][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.11-00.58.14:101][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.12.11-00.58.14:104][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
+[2020.12.11-00.58.14:104][  0]LogD3D11RHI:   Driver Version: Adrenalin 19.20 (internal:26.20.12028.2, unified:26.20.12028.2)
+[2020.12.11-00.58.14:104][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2020.12.11-00.58.14:104][  0]LogRHI: Texture pool is 2828 MB (70% of 4041 MB)
+[2020.12.11-00.58.14:198][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.12.11-00.58.14:198][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.11-00.58.14:209][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.12.11-00.58.14:594][  0]LogInit: Using OS detected language (en-US).
+[2020.12.11-00.58.14:594][  0]LogInit: Using OS detected locale (en-US).
+[2020.12.11-00.58.15:137][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2020.12.11-00.58.15:292][  0]LogNetVersion: Platform 1.0.0, NetCL: 0, EngineNetVer: 13, GameNetVer: 0 (Checksum: 379290945)
+[2020.12.11-00.58.16:057][  0]PlatformStorage: Migrating GlobalInputOverrides
+[2020.12.11-00.58.16:499][  0]PlatformStorage: Verbose: Reading ../../../Platform/Config/ directory structure took 3.210700ms
+[2020.12.11-00.58.16:499][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.001600ms
+[2020.12.11-00.58.16:499][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.002400ms
+[2020.12.11-00.58.16:499][  0]LogEngine: Initializing Engine...
+[2020.12.11-00.58.17:084][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.11-00.58.17:441][  0]LogInit: FAudioDevice initialized.
+[2020.12.11-00.58.17:441][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.11-00.58.17:442][  0]LogInit: Texture streaming: Enabled
+[2020.12.11-00.58.23:006][  0]PlatformInit: Display: Platform Build Version: 1.0.170-prod-s
+[2020.12.11-00.58.26:042][  0]LogInit: Display: Game Engine Initialized.
+[2020.12.11-00.58.26:099][  0]LogInit: Display: Starting Game.
+[2020.12.11-00.58.26:099][  0]LogNet: Browse: /Game/Levels/Main?Name=Player
+[2020.12.11-00.58.26:102][  0]LogLoad: LoadMap: /Game/Levels/Main?Name=Player
+[2020.12.11-00.58.26:103][  0]LogWorld: BeginTearingDown for /Temp/Untitled_28
+[2020.12.11-00.58.26:103][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-00.58.26:582][  0]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.11-00.58.26:583][  0]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2020.12.10-18.58.26
+[2020.12.11-00.58.26:583][  0]LogWorld: Bringing up level for play took: 0.000310
+[2020.12.11-00.58.26:708][  0]LogLoad: Took 0.605348 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.11-00.58.26:708][  0]LogLoad: (Engine Initialization) Total time: 13.54 seconds
+[2020.12.11-00.58.27:666][ 14]PlatformVerboseLog: Error: FAILED ENSURE: D:/J/workspace/PB/UE4/Platform/Source/Platform/Private/Application/Storage/PlatformGameStorage.cpp:59 ensure(false) failed: STORAGE: Failed to read meta from C:/Users/desne/OneDrive/Documents/My Games/CORE/Saved/Autosaves/Preview/: Read meta
+	No metadata file found!
+[2020.12.11-00.58.27:666][ 14]PlatformStorage: Error: Failed to read meta from C:/Users/desne/OneDrive/Documents/My Games/CORE/Saved/Autosaves/Preview/: Read meta
+	No metadata file found!
+[2020.12.11-00.58.27:666][ 14]Closing by request
+[2020.12.11-00.58.27:666][ 14]LogExit: RequestExit(0, 0, 000000000390B7F3)
+[2020.12.11-00.58.27:684][ 14]LogInit: Display: PreExit Game.
+[2020.12.11-00.58.27:764][ 14]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.11-00.58.27:765][ 14]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-00.58.28:568][ 14]LogExit: Preparing to exit.
+[2020.12.11-00.58.28:873][ 14]LogExit: Game engine shut down
+[2020.12.11-00.58.29:093][ 14]LogExit: Object subsystem successfully closed.
+[2020.12.11-00.58.29:430][ 14]LogD3D11RHI: Shutdown
+[2020.12.11-00.58.29:430][ 14]LogD3D11RHI: CleanupD3DDevice
+[2020.12.11-00.58.29:519][ 14]LogExit: Exiting.
+[2020.12.11-00.58.29:532][ 14]Log file closed, 12/10/20 18:58:29

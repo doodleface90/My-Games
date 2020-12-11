@@ -1,0 +1,346 @@
+﻿Log file open, 12/10/20 17:19:03
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.24-CL-0
+LogInit: Engine Version: 4.24.3-0+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-0+++UE4+Release-4.24
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: Radeon RX 570 Series
+LogInit: Compiled (64-bit): Sep 15 2020 18:19:18
+LogInit: Compiled with Visual C++: 19.16.27034.00
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  -ENV=Prod -LAUNCHER_VERSION=1.10.37.0
+LogInit: Base Directory: C:/ProgramData/Manticore Games/Core/Platform/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.12.10-23.19.04:480][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2020.12.10-23.19.04:480][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2020.12.10-23.19.04:516][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2020.12.10-23.19.04:516][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.10-23.19.04:517][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.12.10-23.19.04:517][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.10-23.19.04:517][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.12.10-23.19.04:517][  0]LogMemory: Process Physical Memory: 109.91 MB used, 109.92 MB peak
+[2020.12.10-23.19.04:517][  0]LogMemory: Process Virtual Memory: 128.38 MB used, 128.38 MB peak
+[2020.12.10-23.19.04:517][  0]LogMemory: Physical Memory: 4668.52 MB used,  3473.83 MB free, 8142.34 MB total
+[2020.12.10-23.19.04:517][  0]LogMemory: Virtual Memory: 4595.03 MB used,  134213136.00 MB free, 134217728.00 MB total
+[2020.12.10-23.19.05:481][  0]LogInit: Using OS detected language (en-US).
+[2020.12.10-23.19.05:481][  0]LogInit: Using OS detected locale (en-US).
+[2020.12.10-23.19.05:541][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.10-23.19.05:846][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.10-23.19.05:846][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.10-23.19.05:846][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.10-23.19.06:226][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
+[2020.12.10-23.19.06:226][  0]LogD3D11RHI:       4041/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.12.10-23.19.06:287][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.10-23.19.06:287][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.10-23.19.06:287][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.10-23.19.06:297][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.10-23.19.06:297][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.12.10-23.19.06:299][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
+[2020.12.10-23.19.06:299][  0]LogD3D11RHI:   Driver Version: Adrenalin 19.20 (internal:26.20.12028.2, unified:26.20.12028.2)
+[2020.12.10-23.19.06:299][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2020.12.10-23.19.06:299][  0]LogRHI: Texture pool is 2828 MB (70% of 4041 MB)
+[2020.12.10-23.19.06:875][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.12.10-23.19.06:875][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.10-23.19.06:968][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.12.10-23.19.07:808][  0]LogInit: Using OS detected language (en-US).
+[2020.12.10-23.19.07:808][  0]LogInit: Using OS detected locale (en-US).
+[2020.12.10-23.19.08:557][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2020.12.10-23.19.08:756][  0]LogNetVersion: Platform 1.0.0, NetCL: 0, EngineNetVer: 13, GameNetVer: 0 (Checksum: 379290945)
+[2020.12.10-23.19.09:789][  0]PlatformStorage: Migrating GlobalInputOverrides
+[2020.12.10-23.19.10:171][  0]PlatformStorage: Verbose: Reading ../../../Platform/Config/ directory structure took 2.675900ms
+[2020.12.10-23.19.10:171][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.002100ms
+[2020.12.10-23.19.10:171][  0]PlatformStorage: Verbose: Lambda: OnComplete took 0.001600ms
+[2020.12.10-23.19.10:171][  0]LogEngine: Initializing Engine...
+[2020.12.10-23.19.10:413][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.10-23.19.10:908][  0]LogInit: FAudioDevice initialized.
+[2020.12.10-23.19.10:909][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.10-23.19.10:909][  0]LogInit: Texture streaming: Enabled
+[2020.12.10-23.19.15:095][  0]PlatformInit: Display: Platform Build Version: 1.0.170-prod-s
+[2020.12.10-23.19.16:815][  0]LogInit: Display: Game Engine Initialized.
+[2020.12.10-23.19.16:832][  0]LogInit: Display: Starting Game.
+[2020.12.10-23.19.16:832][  0]LogNet: Browse: /Game/Levels/Main?Name=Player
+[2020.12.10-23.19.16:890][  0]LogLoad: LoadMap: /Game/Levels/Main?Name=Player
+[2020.12.10-23.19.16:890][  0]LogWorld: BeginTearingDown for /Temp/Untitled_28
+[2020.12.10-23.19.17:190][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-23.19.17:512][  0]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.10-23.19.17:551][  0]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2020.12.10-17.19.17
+[2020.12.10-23.19.17:551][  0]LogWorld: Bringing up level for play took: 0.000318
+[2020.12.10-23.19.19:231][  0]LogLoad: Took 2.341054 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.10-23.19.19:231][  0]LogLoad: (Engine Initialization) Total time: 21.15 seconds
+[2020.12.10-23.19.22:292][ 43]LogNet: Browse: /Game/Levels/FrontEnd
+[2020.12.10-23.19.22:292][ 43]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2020.12.10-23.19.22:292][ 43]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.10-23.19.22:380][ 43]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-23.19.23:703][ 43]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2020.12.10-23.19.23:754][ 43]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2020.12.10-17.19.23
+[2020.12.10-23.19.23:756][ 43]LogWorld: Bringing up level for play took: 0.001991
+[2020.12.10-23.19.23:969][ 43]LogLoad: Took 1.677809 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2020.12.11-00.32.08:904][369]LogNet: Browse: /Game/Levels/Main
+[2020.12.11-00.32.08:904][369]LogLoad: LoadMap: /Game/Levels/Main
+[2020.12.11-00.32.08:904][369]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2020.12.11-00.32.08:922][369]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-00.32.08:922][369]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-00.32.08:923][369]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-00.32.08:923][369]LogWorld: UWorld::CleanupWorld for character_select_room_option000, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-00.32.08:937][369]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-00.32.08:948][369]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-00.32.09:037][369]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.11-00.32.09:037][369]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2020.12.10-18.32.09
+[2020.12.11-00.32.09:037][369]LogWorld: Bringing up level for play took: 0.000499
+[2020.12.11-00.32.09:041][369]LogLoad: Took 0.137202 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.11-00.32.10:235][405]LogNet: Browse: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?listen
+[2020.12.11-00.32.10:235][405]LogLoad: LoadMap: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?listen
+[2020.12.11-00.32.10:235][405]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.11-00.32.10:236][405]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-00.32.10:691][405]LogLoad: Game class is 'bp_CreateGameMode_C'
+[2020.12.11-00.32.10:692][405]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.12.11-00.32.10:692][405]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.12.11-00.32.10:692][405]LogNet: GameNetDriver CoreNetDriver_0 IpNetDriver listening on port 7777
+[2020.12.11-00.32.10:853][405]LogWorld: Bringing World /Game/Levels/CreateMap.CreateMap up for play (max tick rate 30) at 2020.12.10-18.32.10
+[2020.12.11-00.32.10:945][405]LogWorld: Bringing up level for play took: 0.099114
+[2020.12.11-00.32.11:498][405]LogLoad: Took 1.262800 seconds to LoadMap(/Game/Levels/CreateMap)
+[2020.12.11-00.32.19:289][415]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 6.86, Realtime: 6.86. CoreNetDriver_0
+[2020.12.11-00.33.26:554][802]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.12.11-00.34.33:250][441]LogD3D11RHI: Warning: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2020.12.11-00.58.34:711][670]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65117
+[2020.12.11-00.58.34:733][672]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65117
+[2020.12.11-00.58.34:733][672]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65117
+[2020.12.11-00.58.34:753][672]LogNet: NotifyAcceptedConnection: Name: CreateMap, TimeStamp: 12/10/20 18:58:34, [UNetConnection] RemoteAddr: 127.0.0.1:65117, Name: CoreConnection_0, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.11-00.58.34:753][672]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65117, Name: CoreConnection_0, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.11-00.58.34:775][674]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/CreateMap.CreateMap: Accepted
+[2020.12.11-00.58.34:791][674]LogNet: Remote platform little endian=1
+[2020.12.11-00.58.34:791][674]LogNet: This platform little endian=1
+[2020.12.11-00.58.34:791][674]LogNetVersion: Platform 1.0.0.0, NetCL: 0, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2276302837)
+[2020.12.11-00.58.34:791][674]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65118
+[2020.12.11-00.58.34:798][675]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65118
+[2020.12.11-00.58.34:798][675]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65118
+[2020.12.11-00.58.34:799][675]LogNet: NotifyAcceptedConnection: Name: CreateMap, TimeStamp: 12/10/20 18:58:34, [UNetConnection] RemoteAddr: 127.0.0.1:65118, Name: CoreConnection_1, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.11-00.58.34:799][675]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65118, Name: CoreConnection_1, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.11-00.58.34:831][677]LogNet: Login request: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?ReservationToken=219C948E4F0E7DCB2593D7B99ADED2CB?Name=Bot3 userId: NULL:<Redacted> platform: NULL
+[2020.12.11-00.58.34:831][677]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/CreateMap.CreateMap: Accepted
+[2020.12.11-00.58.34:831][677]LogNet: Remote platform little endian=1
+[2020.12.11-00.58.34:831][677]LogNet: This platform little endian=1
+[2020.12.11-00.58.34:864][679]LogNet: Client netspeed is 1000000
+[2020.12.11-00.58.34:864][679]LogNet: Login request: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?ReservationToken=219C948E4F0E7DCB2593D7B99ADED2CB?Name=Bot2 userId: NULL:<Redacted> platform: NULL
+[2020.12.11-00.58.34:898][681]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65119
+[2020.12.11-00.58.34:898][681]LogNet: Client netspeed is 1000000
+[2020.12.11-00.58.34:931][683]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65119
+[2020.12.11-00.58.34:931][683]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65119
+[2020.12.11-00.58.34:932][683]LogNet: NotifyAcceptedConnection: Name: CreateMap, TimeStamp: 12/10/20 18:58:34, [UNetConnection] RemoteAddr: 127.0.0.1:65119, Name: CoreConnection_2, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.11-00.58.34:932][683]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65119, Name: CoreConnection_2, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.12.11-00.58.34:964][685]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/CreateMap.CreateMap: Accepted
+[2020.12.11-00.58.34:964][685]LogNet: Remote platform little endian=1
+[2020.12.11-00.58.34:964][685]LogNet: This platform little endian=1
+[2020.12.11-00.58.34:998][687]LogNet: Login request: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?ReservationToken=219C948E4F0E7DCB2593D7B99ADED2CB?Name=Bot1 userId: NULL:<Redacted> platform: NULL
+[2020.12.11-00.58.35:031][689]LogNet: Client netspeed is 1000000
+[2020.12.11-00.58.35:615][724]LogNet: Join request: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?ReservationToken=219C948E4F0E7DCB2593D7B99ADED2CB?Name=Bot2?SplitscreenCount=1
+[2020.12.11-00.58.36:268][724]LogNet: Join succeeded: Bot2
+[2020.12.11-00.58.36:268][724]LogNet: Join request: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?ReservationToken=219C948E4F0E7DCB2593D7B99ADED2CB?Name=Bot1?SplitscreenCount=1
+[2020.12.11-00.58.36:275][724]LogNet: Join succeeded: Bot1
+[2020.12.11-00.58.36:275][724]LogNet: Join request: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?ReservationToken=219C948E4F0E7DCB2593D7B99ADED2CB?Name=Bot3?SplitscreenCount=1
+[2020.12.11-00.58.36:282][724]LogNet: Join succeeded: Bot3
+[2020.12.11-00.58.47:120][253]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2020.12.11-00.58.47:120][253]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65119, Name: CoreConnection_2, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: PFPlayerController_1, Owner: PFPlayerController_1, UniqueId: NULL:<Redacted>
+[2020.12.11-00.58.47:120][253]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65119, Name: CoreConnection_2, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: PFPlayerController_1, Owner: PFPlayerController_1, UniqueId: NULL:<Redacted>, Channels: 15, Time: 2020.12.11-00.58.47
+[2020.12.11-00.58.47:120][253]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65119, Name: CoreConnection_2, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: PFPlayerController_1, Owner: PFPlayerController_1, UniqueId: NULL:<Redacted>
+[2020.12.11-00.58.51:747][530]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2020.12.11-00.58.51:747][530]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65117, Name: CoreConnection_0, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: PFPlayerController_2, Owner: PFPlayerController_2, UniqueId: NULL:<Redacted>
+[2020.12.11-00.58.51:747][530]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65117, Name: CoreConnection_0, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: PFPlayerController_2, Owner: PFPlayerController_2, UniqueId: NULL:<Redacted>, Channels: 13, Time: 2020.12.11-00.58.51
+[2020.12.11-00.58.51:747][530]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65117, Name: CoreConnection_0, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: PFPlayerController_2, Owner: PFPlayerController_2, UniqueId: NULL:<Redacted>
+[2020.12.11-00.58.53:482][634]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2020.12.11-00.58.53:482][634]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65118, Name: CoreConnection_1, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: PFPlayerController_0, Owner: PFPlayerController_0, UniqueId: NULL:<Redacted>
+[2020.12.11-00.58.53:482][634]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65118, Name: CoreConnection_1, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: PFPlayerController_0, Owner: PFPlayerController_0, UniqueId: NULL:<Redacted>, Channels: 11, Time: 2020.12.11-00.58.53
+[2020.12.11-00.58.53:482][634]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65118, Name: CoreConnection_1, Driver: GameNetDriver CoreNetDriver_0, IsServer: YES, PC: PFPlayerController_0, Owner: PFPlayerController_0, UniqueId: NULL:<Redacted>
+[2020.12.11-01.16.31:400][757]LogNet: Browse: /Game/Levels/Main?closed
+[2020.12.11-01.16.31:400][757]LogNet: Connection failed; returning to Entry
+[2020.12.11-01.16.31:401][757]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2020.12.11-01.16.31:401][757]LogWorld: BeginTearingDown for /Game/Levels/CreateMap
+[2020.12.11-01.16.31:401][757]LogNet: World NetDriver shutdown CoreNetDriver_0 [GameNetDriver]
+[2020.12.11-01.16.31:401][757]LogNet: DestroyNamedNetDriver CoreNetDriver_0 [GameNetDriver]
+[2020.12.11-01.16.31:401][757]LogExit: GameNetDriver CoreNetDriver_0 shut down
+[2020.12.11-01.16.31:647][757]LogWorld: UWorld::CleanupWorld for CreateMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-01.16.31:660][757]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-01.16.31:673][757]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-01.16.31:673][757]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-01.16.31:776][757]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.11-01.16.31:776][757]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 60) at 2020.12.10-19.16.31
+[2020.12.11-01.16.31:776][757]LogWorld: Bringing up level for play took: 0.000230
+[2020.12.11-01.16.31:809][757]LogLoad: Took 0.408951 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.11-01.16.31:917][758]LogNet: Browse: /Game/Levels/FrontEnd
+[2020.12.11-01.16.31:917][758]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2020.12.11-01.16.31:917][758]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.11-01.16.31:918][758]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-01.16.32:671][758]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2020.12.11-01.16.32:682][758]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2020.12.10-19.16.32
+[2020.12.11-01.16.32:682][758]LogWorld: Bringing up level for play took: 0.000407
+[2020.12.11-01.16.32:696][758]LogLoad: Took 0.778375 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2020.12.11-01.58.52:189][936]LogNet: Browse: /Game/Levels/Main
+[2020.12.11-01.58.52:189][936]LogLoad: LoadMap: /Game/Levels/Main
+[2020.12.11-01.58.52:189][936]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2020.12.11-01.58.52:216][936]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-01.58.52:216][936]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-01.58.52:216][936]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-01.58.52:216][936]LogWorld: UWorld::CleanupWorld for character_select_room_option000, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-01.58.52:303][936]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.11-01.58.52:317][936]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2020.12.10-19.58.52
+[2020.12.11-01.58.52:317][936]LogWorld: Bringing up level for play took: 0.000310
+[2020.12.11-01.58.52:321][936]LogLoad: Took 0.132317 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.11-01.58.52:428][940]LogNet: Browse: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?listen
+[2020.12.11-01.58.52:428][940]LogLoad: LoadMap: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?listen
+[2020.12.11-01.58.52:428][940]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.11-01.58.52:429][940]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-01.58.52:670][940]LogLoad: Game class is 'bp_CreateGameMode_C'
+[2020.12.11-01.58.52:670][940]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.12.11-01.58.52:671][940]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.12.11-01.58.52:671][940]LogNet: GameNetDriver CoreNetDriver_1 IpNetDriver listening on port 7777
+[2020.12.11-01.58.52:675][940]LogWorld: Bringing World /Game/Levels/CreateMap.CreateMap up for play (max tick rate 30) at 2020.12.10-19.58.52
+[2020.12.11-01.58.52:678][940]LogWorld: Bringing up level for play took: 0.006914
+[2020.12.11-01.58.52:828][940]LogLoad: Took 0.400503 seconds to LoadMap(/Game/Levels/CreateMap)
+[2020.12.11-02.22.22:977][193]LogNet: Browse: /Game/Levels/Main?closed
+[2020.12.11-02.22.22:977][193]LogNet: Connection failed; returning to Entry
+[2020.12.11-02.22.23:015][193]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2020.12.11-02.22.23:015][193]LogWorld: BeginTearingDown for /Game/Levels/CreateMap
+[2020.12.11-02.22.23:015][193]LogNet: World NetDriver shutdown CoreNetDriver_1 [GameNetDriver]
+[2020.12.11-02.22.23:015][193]LogNet: DestroyNamedNetDriver CoreNetDriver_1 [GameNetDriver]
+[2020.12.11-02.22.23:015][193]LogExit: GameNetDriver CoreNetDriver_1 shut down
+[2020.12.11-02.22.23:051][193]LogWorld: UWorld::CleanupWorld for CreateMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.22.23:118][193]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.11-02.22.23:119][193]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 60) at 2020.12.10-20.22.23
+[2020.12.11-02.22.23:119][193]LogWorld: Bringing up level for play took: 0.000304
+[2020.12.11-02.22.23:128][193]LogLoad: Took 0.113075 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.11-02.22.23:189][194]LogNet: Browse: /Game/Levels/FrontEnd
+[2020.12.11-02.22.23:190][194]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2020.12.11-02.22.23:190][194]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.11-02.22.23:190][194]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.22.23:521][194]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2020.12.11-02.22.23:526][194]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2020.12.10-20.22.23
+[2020.12.11-02.22.23:526][194]LogWorld: Bringing up level for play took: 0.000575
+[2020.12.11-02.22.23:542][194]LogLoad: Took 0.352478 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2020.12.11-02.24.38:907][234]LogNet: Browse: /Game/Levels/Main
+[2020.12.11-02.24.38:907][234]LogLoad: LoadMap: /Game/Levels/Main
+[2020.12.11-02.24.38:907][234]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2020.12.11-02.24.38:914][234]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.38:915][234]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.38:915][234]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.38:915][234]LogWorld: UWorld::CleanupWorld for character_select_room_option000, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.38:969][234]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.11-02.24.38:970][234]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2020.12.10-20.24.38
+[2020.12.11-02.24.38:970][234]LogWorld: Bringing up level for play took: 0.000212
+[2020.12.11-02.24.41:537][234]LogLoad: Took 2.630903 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.11-02.24.41:613][237]LogNet: Browse: /Game/Levels/PlayMap?ClientVersion=1.0.170-prod-s?listen
+[2020.12.11-02.24.41:614][237]LogLoad: LoadMap: /Game/Levels/PlayMap?ClientVersion=1.0.170-prod-s?listen
+[2020.12.11-02.24.41:614][237]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.11-02.24.41:615][237]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.41:753][237]LogLoad: Game class is 'bp_PlayGameMode_C'
+[2020.12.11-02.24.41:753][237]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.12.11-02.24.41:753][237]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.12.11-02.24.41:753][237]LogNet: GameNetDriver CoreNetDriver_2 IpNetDriver listening on port 7777
+[2020.12.11-02.24.41:758][237]LogWorld: Bringing World /Game/Levels/PlayMap.PlayMap up for play (max tick rate 30) at 2020.12.10-20.24.41
+[2020.12.11-02.24.41:760][237]LogWorld: Bringing up level for play took: 0.006461
+[2020.12.11-02.24.41:877][237]LogLoad: Took 0.263050 seconds to LoadMap(/Game/Levels/PlayMap)
+[2020.12.11-02.24.47:465][564]LogNet: Browse: /Game/Levels/Main?closed
+[2020.12.11-02.24.47:465][564]LogNet: Connection failed; returning to Entry
+[2020.12.11-02.24.47:466][564]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2020.12.11-02.24.47:466][564]LogWorld: BeginTearingDown for /Game/Levels/PlayMap
+[2020.12.11-02.24.47:466][564]LogNet: World NetDriver shutdown CoreNetDriver_2 [GameNetDriver]
+[2020.12.11-02.24.47:466][564]LogNet: DestroyNamedNetDriver CoreNetDriver_2 [GameNetDriver]
+[2020.12.11-02.24.47:466][564]LogExit: GameNetDriver CoreNetDriver_2 shut down
+[2020.12.11-02.24.47:471][564]LogWorld: UWorld::CleanupWorld for PlayMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.47:510][564]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.11-02.24.47:511][564]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 60) at 2020.12.10-20.24.47
+[2020.12.11-02.24.47:511][564]LogWorld: Bringing up level for play took: 0.000220
+[2020.12.11-02.24.48:065][564]LogLoad: Took 0.599937 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.11-02.24.48:108][565]LogNet: Browse: /Game/Levels/FrontEnd
+[2020.12.11-02.24.48:108][565]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2020.12.11-02.24.48:108][565]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.11-02.24.48:109][565]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.48:545][565]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2020.12.11-02.24.48:548][565]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2020.12.10-20.24.48
+[2020.12.11-02.24.48:548][565]LogWorld: Bringing up level for play took: 0.000357
+[2020.12.11-02.24.48:549][565]LogLoad: Took 0.441160 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2020.12.11-02.24.51:917][665]LogNet: Browse: /Game/Levels/Main
+[2020.12.11-02.24.51:917][665]LogLoad: LoadMap: /Game/Levels/Main
+[2020.12.11-02.24.51:917][665]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2020.12.11-02.24.51:923][665]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.51:924][665]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.51:924][665]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.51:924][665]LogWorld: UWorld::CleanupWorld for character_select_room_option000, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.51:991][665]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.11-02.24.51:992][665]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2020.12.10-20.24.51
+[2020.12.11-02.24.51:992][665]LogWorld: Bringing up level for play took: 0.000332
+[2020.12.11-02.24.51:996][665]LogLoad: Took 0.078571 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.11-02.24.52:103][669]LogNet: Browse: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?listen
+[2020.12.11-02.24.52:103][669]LogLoad: LoadMap: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?listen
+[2020.12.11-02.24.52:103][669]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.11-02.24.52:104][669]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.24.52:205][669]LogLoad: Game class is 'bp_CreateGameMode_C'
+[2020.12.11-02.24.52:205][669]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.12.11-02.24.52:206][669]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.12.11-02.24.52:206][669]LogNet: GameNetDriver CoreNetDriver_3 IpNetDriver listening on port 7777
+[2020.12.11-02.24.52:211][669]LogWorld: Bringing World /Game/Levels/CreateMap.CreateMap up for play (max tick rate 30) at 2020.12.10-20.24.52
+[2020.12.11-02.24.52:213][669]LogWorld: Bringing up level for play took: 0.006630
+[2020.12.11-02.24.52:352][669]LogLoad: Took 0.248612 seconds to LoadMap(/Game/Levels/CreateMap)
+[2020.12.11-02.25.59:570][661]LogNet: Browse: /Game/Levels/Main?closed
+[2020.12.11-02.25.59:570][661]LogNet: Connection failed; returning to Entry
+[2020.12.11-02.25.59:571][661]LogLoad: LoadMap: /Game/Levels/Main?closed
+[2020.12.11-02.25.59:571][661]LogWorld: BeginTearingDown for /Game/Levels/CreateMap
+[2020.12.11-02.25.59:571][661]LogNet: World NetDriver shutdown CoreNetDriver_3 [GameNetDriver]
+[2020.12.11-02.25.59:571][661]LogNet: DestroyNamedNetDriver CoreNetDriver_3 [GameNetDriver]
+[2020.12.11-02.25.59:571][661]LogExit: GameNetDriver CoreNetDriver_3 shut down
+[2020.12.11-02.25.59:606][661]LogWorld: UWorld::CleanupWorld for CreateMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.25.59:678][661]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.11-02.25.59:678][661]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 60) at 2020.12.10-20.25.59
+[2020.12.11-02.25.59:678][661]LogWorld: Bringing up level for play took: 0.000247
+[2020.12.11-02.25.59:687][661]LogLoad: Took 0.116875 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.11-02.25.59:742][662]LogNet: Browse: /Game/Levels/FrontEnd
+[2020.12.11-02.25.59:742][662]LogLoad: LoadMap: /Game/Levels/FrontEnd
+[2020.12.11-02.25.59:742][662]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.11-02.25.59:743][662]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.26.00:034][662]LogLoad: Game class is 'bp_FrontEndGameMode_C'
+[2020.12.11-02.26.00:036][662]LogWorld: Bringing World /Game/Levels/FrontEnd.FrontEnd up for play (max tick rate 30) at 2020.12.10-20.26.00
+[2020.12.11-02.26.00:037][662]LogWorld: Bringing up level for play took: 0.000359
+[2020.12.11-02.26.00:038][662]LogLoad: Took 0.295420 seconds to LoadMap(/Game/Levels/FrontEnd)
+[2020.12.11-02.27.02:375][531]LogNet: Browse: /Game/Levels/Main
+[2020.12.11-02.27.02:375][531]LogLoad: LoadMap: /Game/Levels/Main
+[2020.12.11-02.27.02:375][531]LogWorld: BeginTearingDown for /Game/Levels/FrontEnd
+[2020.12.11-02.27.02:398][531]LogWorld: UWorld::CleanupWorld for FrontEnd, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.27.02:398][531]LogWorld: UWorld::CleanupWorld for AvatarEditorLighting, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.27.02:398][531]LogWorld: UWorld::CleanupWorld for AvatarEditorLogic, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.27.02:398][531]LogWorld: UWorld::CleanupWorld for character_select_room_option000, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.27.02:459][531]LogLoad: Game class is 'bp_MainGameMode_C'
+[2020.12.11-02.27.02:460][531]LogWorld: Bringing World /Game/Levels/Main.Main up for play (max tick rate 30) at 2020.12.10-20.27.02
+[2020.12.11-02.27.02:460][531]LogWorld: Bringing up level for play took: 0.000214
+[2020.12.11-02.27.02:463][531]LogLoad: Took 0.088041 seconds to LoadMap(/Game/Levels/Main)
+[2020.12.11-02.27.02:570][535]LogNet: Browse: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?listen
+[2020.12.11-02.27.02:570][535]LogLoad: LoadMap: /Game/Levels/CreateMap?ClientVersion=1.0.170-prod-s?listen
+[2020.12.11-02.27.02:570][535]LogWorld: BeginTearingDown for /Game/Levels/Main
+[2020.12.11-02.27.02:571][535]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.12.11-02.27.02:671][535]LogLoad: Game class is 'bp_CreateGameMode_C'
+[2020.12.11-02.27.02:672][535]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.12.11-02.27.02:672][535]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.12.11-02.27.02:672][535]LogNet: GameNetDriver CoreNetDriver_4 IpNetDriver listening on port 7777
+[2020.12.11-02.27.02:677][535]LogWorld: Bringing World /Game/Levels/CreateMap.CreateMap up for play (max tick rate 30) at 2020.12.10-20.27.02
+[2020.12.11-02.27.02:679][535]LogWorld: Bringing up level for play took: 0.006770
+[2020.12.11-02.27.02:841][535]LogLoad: Took 0.271889 seconds to LoadMap(/Game/Levels/CreateMap)
